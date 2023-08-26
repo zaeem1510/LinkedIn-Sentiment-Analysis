@@ -45,6 +45,18 @@ In the digital age, effective communication is key to building professional rela
    pip install -r requirements.txt
    ```
 3) Obtain LinkedIn message data and place it in the appropriate directory.
+   ### LinkedIn Message Data
+
+The LinkedIn message data is stored in a CSV file named `messages_blanks.csv`. This file contains essential information about your messages, allowing the project to analyze and provide insights. Below is a breakdown of the columns present in the CSV file:
+
+- **CONVERSATION ID:** A unique identifier for each message.
+- **CONTENT:** The text content of the message exchanged.
+- **FROM:** The name of the person who sent the message.
+- **TO:** The name of the person who received the message.
+- **DATE:** The date and time when the message was sent.
+- *Add any additional columns relevant to your project's requirements.*
+
+Please ensure that the CSV file is correctly formatted and contains the necessary information. The provided preprocessing script will help clean and organize the data for analysis.
 
 ## **Usage**
 
